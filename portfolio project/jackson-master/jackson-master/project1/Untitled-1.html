@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        div p{
+          background-color: yellow;
+        }
+
+        div>p{ 
+            background-color: aqua;
+
+        }
+        #p1{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 50px;
+            padding: relative;
+        }
+        #p1::after{
+            content: "";
+             position: absolute;
+            top: 0px;
+            left: 0px;
+            border-bottom: 10px solid transparent ;
+            border-top: 5px solid  transparent;
+            border-left: 5px solid  transparent;
+            border-right: 5px solid black;
+           
+    
+        }
+       
+
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem expedita sapiente asperiores omnis corporis consectetur eum architecto praesentium enim unde, aspernatur deserunt fugit sit officiis, obcaecati nesciunt suscipit alias.</p>
+   
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perspiciatis quia enim. Perferendis, eos, sint exercitationem aut ab corporis recusandae culpa, cum at atque laboriosam nam praesentium! Sapiente, sit repellendus.</p>
+   <section>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nobis dolorem obcaecati recusandae dolor voluptas qui at excepturi necessitatibus repellendus? Eum debitis iure iusto doloremque sit at neque temporibus dicta.</p>
+   </section>
+    </div>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nam, aliquam beatae nihil nulla unde adipisci officiis harum nesciunt facere sint quam, sed est consequatur velit. Ab in omnis laborum?</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nam, aliquam beatae nihil nulla unde adipisci officiis harum nesciunt facere sint quam, sed est consequatur velit. Ab in omnis laborum?</p>
+
+<div id="p1">welcome</div>
+
+</body>
+</html>
